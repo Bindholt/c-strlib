@@ -41,7 +41,7 @@ To run the compiled `strlib` executable, use the following command:
 | `padEnd()`            | Modification Needed | Pads the string to the target length from the end |      ✅      |
 | `replace()`           | Modification Needed | No regex, only static replacement             |       ❌     |
 | `split()`             | Modification Needed | Splits the string based on a separator, no regex |       ❌     | 
-| `localeCompare()`     | Modification Needed | No locale support, similar to `strcmp`        |              |
+| `localeCompare()`     | Modification Needed | No locale support, similar to `strcmp`        |      ✅      |
 | `match()`             | Not Implementable   | Requires regex support                        |              |
 | `matchAll()`          | Not Implementable   | Requires regex support                        |              |
 | `replaceAll()`        | Not Implementable   | Requires regex or advanced manipulation       |              |
